@@ -40,7 +40,8 @@ input[type="password"] {
   margin-left: 1rem;
 }
 
-#remember {
+#remember,
+#terms {
   height: 20px;
   width: 20px;
 }
@@ -57,7 +58,7 @@ input[type="password"] {
   align-items: center;
 }
 
-.remember,
+.choice-label,
 .forgot-pass {
   font-size: 80%;
 }
