@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --forgot-pass: #3377e4;
+  --optional-color: #a6e1fa;
+  --orange-grand-dark: #f12711;
+  --orange-grand-light: #f5af19;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
