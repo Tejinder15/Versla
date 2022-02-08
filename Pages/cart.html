@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://plumeui.netlify.app/Styles/main.css" />
+    <link rel="stylesheet" href="../Styles/cart.css">
+    <title>Cart | Versla</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <h2 class="mycart-heading">MY CART</h2>
+            <div class="mycart-container">
+                <div class="product-card">
+                    <div class="basic-card-image-title product-card-image">
+                        <img src="../../Images/product.png" alt="photo" class="product-image">
+                        <span class="material-icons-outlined dot">favorite_border</span>
+                    </div>
+                    <div class="product-card-container">
+                        <div class="product-card-info">
+                            <div class="product-card-details">
+                                <p class="product-title">Men Premium Jacket</p>
+                                <span class="product-price">&#8377;2000</span>
+                                <span class="product-discount-price">&#8377;4000</span>
+                                <p class="product-discount">50% off</p>
+                                <div class="product-quantity-container">
+                                    <span>Quantity:</span>
+                                    <div class="product-quantity-handle">
+                                        <button class="prod-quantity-decrease">-</button>
+                                        <input type="text" autocomplete="off" class="prod-quantity">
+                                        <button class="prod-quantity-increase">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card-actions">
+                                <button class="prod-rfc">Remove From Cart</button>
+                                <button class="prod-mtw">Move to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price-details-container">
+                    <h2 class="price-detail-heading">Price Details</h2>
+                    <hr>
+                    <div class="price-detail-desc">
+                        <div class="price-detail-item">
+                            <span>Price &#40;2items&#41;</span>
+                            <span>&#8377;4000</span>
+                        </div>
+                        <div class="price-detail-item">
+                            <span>Discount</span>
+                            <span>-&#8377;1000</span>
+                        </div>
+                        <div class="price-detail-item">
+                            <span>Delivery Charges</span>
+                            <span>&#8377;499</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="total-amount-container">
+                        <span class="total-amount-title">Total Amount</span>
+                        <span class="total-amount">&#8377;3499</span>
+                    </div>
+                    <hr>
+                    <p>You will save &#8377;1000 on this order.</p>
+                    <button class="place-order">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

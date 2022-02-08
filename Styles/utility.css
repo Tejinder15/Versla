@@ -7,6 +7,14 @@
   --optional-color: #a6e1fa;
   --orange-grand-dark: #f12711;
   --orange-grand-light: #f5af19;
+  --yellow-test-one: #ffb703;
+  --yellow-test-two: #ffbe0b;
+  --yellow-test-three: #ffc300;
+  --orange-test-one: #f8961e;
+  --orange-test-two: #f3722c;
+  --red-orange-test: #f94144;
+  --orange-test-three: #fb5607;
+  --blue-place-order: #3b82f6;
 }
 
 body {
@@ -15,4 +23,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 96%;
+  margin: 0 auto;
 }
