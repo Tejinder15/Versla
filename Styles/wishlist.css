@@ -1,0 +1,58 @@
+@import url("./utility.css");
+
+.container {
+  max-width: 1200px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.wishlist-head {
+  text-align: center;
+}
+
+.wishlist-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  column-gap: 0.8rem;
+  row-gap: 1.6rem;
+  justify-items: center;
+}
+
+.basic-card {
+  max-width: 340px;
+  width: 100%;
+}
+
+.heart {
+  color: red;
+}
+
+.product-image-container {
+  background-color: rgba(196, 196, 196, 0.5);
+}
+
+.basic-card-details {
+  width: 100%;
+}
+
+.basic-card-secondary {
+  text-align: center;
+}
+
+.product-price {
+  margin: -8px auto 10px auto;
+}
+
+.basic-card-actions {
+  width: 100%;
+  padding: 0;
+}
+
+.move-to-cart {
+  width: 100%;
+  padding: 0.8rem 0;
+  background-color: var(--orange-grand-light);
+  border: none;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+}
