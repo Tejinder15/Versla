@@ -1,11 +1,5 @@
 @import url("./utility.css");
 
-.container {
-  max-width: 1200px;
-  width: 96%;
-  margin: 0 auto;
-}
-
 .wishlist-head {
   text-align: center;
 }
