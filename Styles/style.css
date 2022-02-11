@@ -1,0 +1,40 @@
+@import url("./utility.css");
+@import url("./header.css");
+
+.hero {
+  max-width: 100%;
+}
+
+.category-section-title {
+  text-align: center;
+}
+
+.category-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.category-col {
+  width: 240px;
+  background-color: var(--yellow-test-three);
+  border-radius: 5px;
+}
+
+.category-pic {
+  max-width: 100%;
+}
+
+.category-title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+@media only screen and (max-width: 425px) {
+  .category-container {
+    flex-flow: wrap;
+  }
+}
