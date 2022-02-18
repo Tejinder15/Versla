@@ -25,10 +25,11 @@ nav {
 .nav-action-item {
   display: flex;
   align-items: center;
+  margin-right: 16px;
 }
 
-.nav-action-item {
-  margin-right: 16px;
+.nav-action-item a {
+  color: black;
 }
 
 .login {
