@@ -23,23 +23,23 @@ Versla is an Ecommerce Website which deals in Clothes for Men and Women.
 
 ### Login
 
-![Login_Page](/Images/Screenshots/Login \_ Versla - Google Chrome 19-02-2022 21_30_30.png)
+![Login_Page](./Images/Screenshots/Login.png)
 
 ### Home
 
-![Home_Page](/Images/Screenshots/Versla - Google Chrome 19-02-2022 21_24_52.png)
+![Home_Page](./Images/Screenshots/Home.png)
 
 ### Product
 
-![Product_Page](/Images/Screenshots/Versla - Google Chrome 19-02-2022 21_28_21.png)
+![Product_Page](./Images/Screenshots/Product.png)
 
 ### Cart
 
-![Cart_Page](/Images/Screenshots/Cart \_ Versla - Google Chrome 19-02-2022 21_29_21.png)
+![Cart_Page](./Images/Screenshots/Cart.png)
 
 ### Wishlist
 
-![Wishlist_Page](/Images/Screenshots/Wishlist \_ Versla - Google Chrome 19-02-2022 21_29_53.png)
+![Wishlist_Page](./Images/Screenshots/Wishlist.png)
 
 ## Author
 
