@@ -13,13 +13,27 @@
         <div class="auth-container">
             <h2 class="form-heading">Signup</h2>
             <form action="">
+                <div class="name-container">
+                    <div class="input-group">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" class="name" required autocomplete="off">
+                    </div>
+                    <div class="input-group">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" class="name" required autocomplete="off">
+                    </div>
+                </div>
                 <div class="input-group">
-                    <label for="username">Email address</label>
-                    <input type="text" name="username" required autocomplete="off">
+                    <label for="email">Email address</label>
+                    <input type="text" name="email" required autocomplete="off">
                 </div>
                 <div class="input-group">
                     <label for="password">Password</label>
                     <input type="password" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" name="confirm_password" required>
                 </div>
                 <div class="choice-group">
                     <span class="choice-check">

@@ -31,6 +31,26 @@ input[type="password"] {
   width: 100%;
 }
 
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.name-container .input-group {
+  max-width: 200px;
+  width: 50%;
+  margin-bottom: 0;
+}
+
+.name-container .input-group + .input-group {
+  margin-left: 8px;
+}
+
+input.name {
+  min-width: 0;
+}
+
 .input-group {
   display: block;
   margin-bottom: 1rem;
